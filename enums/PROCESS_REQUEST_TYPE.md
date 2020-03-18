@@ -1,0 +1,10 @@
+# PROCESS_REQUEST_TYPE
+
+```C
+typedef enum {
+   PRT_IGNORE = 0,
+   PRT_CREATE_NEW = 1,
+   PRT_USE_THIS = 2,
+   PRT_USE_THIS_ONLY = 3
+} PROCESS_REQUEST_TYPE;
+```
