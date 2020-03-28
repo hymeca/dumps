@@ -1,0 +1,8 @@
+# APPLICATION_SEARCH_TYPE
+
+```C
+typedef enum {
+   AST_LOCAL = 0,
+   AST_GLOBAL = 1
+} APPLICATION_SEARCH_TYPE;
+```
