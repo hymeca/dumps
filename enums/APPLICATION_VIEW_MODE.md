@@ -1,0 +1,8 @@
+# APPLICATION_VIEW_MODE
+
+```C
+typedef enum {
+   AVM_DEFAULT = 0,
+   AVM_COMPACT_OVERLAY = 1
+} APPLICATION_VIEW_MODE;
+```
