@@ -1,0 +1,11 @@
+# BINDVERB
+
+```C
+typedef enum {
+   BINDVERB_GET = 0,
+   BINDVERB_POST = 1,
+   BINDVERB_PUT = 2,
+   BINDVERB_CUSTOM = 3,
+   BINDVERB_RESERVED1 = 4
+} BINDVERB;
+```
