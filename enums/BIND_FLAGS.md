@@ -1,0 +1,8 @@
+# BIND_FLAGS
+
+```C
+typedef enum {
+   BIND_MAYBOTHERUSER = 1,
+   BIND_JUSTTESTEXISTENCE = 2
+} BIND_FLAGS;
+```
