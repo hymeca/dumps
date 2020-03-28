@@ -1,0 +1,8 @@
+# APPLICATION_LAYOUT_MODE
+
+```C
+typedef enum {
+   ALM_NORMAL = 0,
+   ALM_LOCKSCREEN = 1
+} APPLICATION_LAYOUT_MODE;
+```
