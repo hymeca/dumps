@@ -1,7 +1,7 @@
 # PROCESS_DYNAMIC_FUNCTION_TABLE_INFORMATION
 
 ```C
-#ifdef _M_AMD64
+#ifdef _M_X64
 typedef struct _PROCESS_DYNAMIC_FUNCTION_TABLE_INFORMATION { // x64 = 16
    PDYNAMIC_FUNCTION_TABLE DynamicFunctionTable;             // 0x000
    BOOLEAN                 Remove;                           // 0x008
