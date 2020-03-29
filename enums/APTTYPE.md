@@ -2,7 +2,7 @@
 
 ```C
 typedef enum _APTTYPE {
-   APTTYPE_CURRENT = 0n-1
+   APTTYPE_CURRENT = -1
    APTTYPE_STA = 0,
    APTTYPE_MTA = 1,
    APTTYPE_NA = 2,
