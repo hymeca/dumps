@@ -1,0 +1,8 @@
+# WINRT_INIT_TYPE
+
+```C
+typedef enum {
+   RO_INIT_SINGLETHREADED = 0,
+   RO_INIT_MULTITHREADED = 1
+} WINRT_INIT_TYPE;
+```
