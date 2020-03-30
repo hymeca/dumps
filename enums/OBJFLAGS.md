@@ -1,0 +1,10 @@
+# OBJFLAGS
+
+```C
+typedef enum {
+   OBJFLAGS_LINK = 1,
+   OBJFLAGS_DOCUMENT = 2,
+   OBJFLAGS_CONVERT = 4,
+   OBJFLAGS_CACHEEMPTY = 8
+} OBJFLAGS;
+```
