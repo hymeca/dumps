@@ -1,0 +1,8 @@
+# OIBDG_FLAGS
+
+```C
+typedef enum {
+   OIBDG_APARTMENTTHREADED = 256,
+   OIBDG_DATAONLY = 4096
+} OIBDG_FLAGS;
+```
