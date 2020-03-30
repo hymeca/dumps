@@ -1,0 +1,7 @@
+# OLELINKBIND
+
+```C
+typedef enum {
+   OLELINKBIND_EVENIFCLASSDIFF = 1
+} OLELINKBIND;
+```
