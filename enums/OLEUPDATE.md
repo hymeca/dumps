@@ -1,0 +1,8 @@
+# OLEUPDATE
+
+```C
+typedef enum {
+   OLEUPDATE_ALWAYS = 1,
+   OLEUPDATE_ONCALL = 3
+} OLEUPDATE, *POLEUPDATE;
+```
