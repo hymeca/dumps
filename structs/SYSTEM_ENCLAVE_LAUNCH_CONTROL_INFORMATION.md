@@ -1,0 +1,7 @@
+# SYSTEM_ENCLAVE_LAUNCH_CONTROL_INFORMATION
+
+```C
+typedef struct _SYSTEM_ENCLAVE_LAUNCH_CONTROL_INFORMATION { // same size in both x86 and x64
+   UCHAR EnclaveLaunchSigner[32];                                             // 0x000 0x000
+} SYSTEM_ENCLAVE_LAUNCH_CONTROL_INFORMATION, *PSYSTEM_ENCLAVE_LAUNCH_CONTROL_INFORMATION;
+```
