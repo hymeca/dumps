@@ -1,0 +1,9 @@
+# SYSTEM_ACTIVITY_MODERATION_INFO
+
+```C
+typedef struct _SYSTEM_ACTIVITY_MODERATION_INFO { // x86 = 16, x64 = 24
+   UNICODE_STRING                      Identifier;                 // 0x000 0x000
+   SYSTEM_ACTIVITY_MODERATION_STATE    ModerationState;            // 0x008 0x010
+   SYSTEM_ACTIVITY_MODERATION_APP_TYPE AppType;                    // 0x00c 0x014
+} SYSTEM_ACTIVITY_MODERATION_INFO, *PSYSTEM_ACTIVITY_MODERATION_INFO;
+```
