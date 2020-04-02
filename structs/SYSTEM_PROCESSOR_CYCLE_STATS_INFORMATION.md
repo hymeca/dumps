@@ -1,0 +1,7 @@
+# SYSTEM_PROCESSOR_CYCLE_STATS_INFORMATION
+
+```C
+typedef struct _SYSTEM_PROCESSOR_CYCLE_STATS_INFORMATION { // same size in both x86 and x64
+   ULONGLONG Cycles[4];                                                       // 0x000 0x000
+} SYSTEM_PROCESSOR_CYCLE_STATS_INFORMATION, *PSYSTEM_PROCESSOR_CYCLE_STATS_INFORMATION;
+```
